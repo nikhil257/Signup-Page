@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #23074d, #cc5333);
+}
+.bgimage{
+    width:85%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: gilroy;
+    color:white;
+
+}
+.bgimage > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    background-attachment: fixed;
+}
+.left{
+    width: 60%;
+    height: 100%;
+    /* background-color: rgba(250, 235, 215, 0.46); */
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding:60px;
+}
+.left > h1{
+    font-size:50px;
+    font-weight: 400;
+    margin-bottom:20px;
+}
+.left > p{
+    margin-bottom:30px;
+}
+.left > span > i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(102, 100, 100, 0.155);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    right:0;
+    padding:80px 50px;
+    
+}
+.right > h1{
+    margin-bottom: 70px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-weight:400;
+}
+.right >form > p{
+    margin-bottom:40px;
+}
+.right > form > p > input{
+    border:none;
+    border-bottom:1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    width:80%;
+    padding-top:10px;
+    color:rgb(201, 201, 201);
+}
+.right > form > h5{
+    font-weight:100;
+}
+.right > form > h5 > span{
+    text-decoration: underline;
+}
+.right > form > h5 > input{
+    margin-right:10px;
+    vertical-align:middle;
+}
+.right > form > .signup{
+    padding:10px 25px;
+    width:40%;
+    margin-top:20px;
+    background-color: rgb(232, 6, 85);
+    color:white;
+    border: 1px solid rgb(172, 15, 15);
+    cursor:pointer;
+}
+.right > form > .account{
+    color:white;
+    padding:20px;
+}
